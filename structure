@@ -1,0 +1,27 @@
+-- utils.py
+-- layer.py
+-- vgg19.py
+-- vgg19.npy                            # 这个文件需要自己下载，后面会讲到
+-- edge_smooth.py
+-- cartoonGAN.py
+-- main.py
+-- dataset                              # 数据集文件
+    |------ trainA                      # cartoon影像数据
+                |------ image1.png
+                |------ image2.png
+                |------ ......
+    |------ trainB                      # 现实影像
+                |------ image1.png
+                |------ image2.png
+                |------ ......
+    |------ trainB_smooth               # 利用edge_smooth可以制作
+                |------ image1.png
+                |------ image2.png
+                |------ ......
+    |------ testA                       # 最终的测试影像
+                |------ image1.png
+                |------ image2.png
+                |------ ......
+
+    vgg 19
+    https://mega.nz/file/xZ8glS6J#MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs
